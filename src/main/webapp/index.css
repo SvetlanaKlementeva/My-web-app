@@ -1,0 +1,23 @@
+label {
+  width: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 280px
+}
+p {
+  margin-top: 0px;
+}
+
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+}
+
+b{
+  color: red;
+}

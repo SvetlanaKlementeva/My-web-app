@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="client.view.AlarmFrame">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="327"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="314f1" class="javax.swing.JRadioButton" binding="rb5Minute">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="469" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value="5 Минут"/>
+        </properties>
+      </component>
+      <component id="d735a" class="javax.swing.JRadioButton" binding="rb30Minute">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="469" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="30 Минут"/>
+        </properties>
+      </component>
+      <component id="afcf1" class="javax.swing.JRadioButton" binding="rbDay">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="469" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="День"/>
+        </properties>
+      </component>
+      <component id="db4ee" class="javax.swing.JButton" binding="btPostponeTask">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Отложить"/>
+        </properties>
+      </component>
+      <component id="33a4f" class="javax.swing.JLabel" binding="lTaskInfo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="7bf1d" class="javax.swing.JRadioButton" binding="rb10Minute">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="469" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10 Минут"/>
+        </properties>
+      </component>
+      <component id="a8eae" class="javax.swing.JRadioButton" binding="rbHour">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="469" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Час"/>
+        </properties>
+      </component>
+      <component id="7ba67" class="javax.swing.JButton" binding="btCompleteTask">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Завершить"/>
+        </properties>
+      </component>
+      <vspacer id="d6d11">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="334a4">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="b09f0" class="javax.swing.JRadioButton" binding="rbManually">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="b0939" class="javax.swing.JFormattedTextField" binding="formattedTextField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="10"/>
+          <enabled value="false"/>
+          <focusLostBehavior value="1"/>
+          <toolTipText value="Дата вводить в формате &quot;dd/MM/yyyy HH:mm&quot;, например: &quot;12/12/2012 12:00&quot;"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
